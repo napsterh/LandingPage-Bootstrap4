@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="img/logo.png" alt="Homer logo" style="width: 20%;">
+                <img src="img/logo.png" alt="Homer logo" style="width: 28%;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link btn btn-outline-success py-1" href="#hola">Sobre mi</a>
+                  <a class="nav-link btn btn-outline-success py-1" href="#hola">Experiencia</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link btn btn-outline-success py-1" href="#proyectos">Proyectos</a>
@@ -49,10 +49,7 @@
                     <div class="typewriter col-md-7 text-center justify-content-center
                      align-self-center">
                         <h1>Juan Homer López Vidal :)</h1>
-                        <p>Ingeniero de software y desarrollador web</p>
-                        <a href="https://www.linkedin.com/in/homer-l%C3%B3pez-vidal-665858123/" target="_blank" class="btn btn-outline-primary">
-                            Leer más
-                        </a>
+                        <h5>Ingeniero de software y desarrollador web</h5>
                     </div>
                     <div class="col-md-5">
                         <img src="img/perfil.jpg" alt="Imagen del perfil"
@@ -67,27 +64,20 @@
       <section class="bg-dark text-white py-4">
         <div class="container">
             <div class="newletter row">
-                <div class="col-md-4">
-                    <input type="text" class="form-control form-control-md"
-                    placeholder="Ingrese su nombre">
-                </div>
-                <div class="col-md-4">
-                    <input type="email" class="form-control form-control-md"
-                    placeholder="Ingrese su Email">
-                </div>
-                <div class="col-md-4">
-                    <button class="btn btn-primary btn-md btn-block">Suscríbete</button>
+                <div class="col-md-12">
+                    <a class="btn btn-primary btn-md btn-block" href="img/cv_v.2_1.pdf" target="_blank">Descargar CV</a>
                 </div>
             </div>
         </div>
       </section>
 
       <!--Bootstrap JS-->
-      <section class="py-4">
+      <section class="py-4" id="sociales">
         <div class="container">
+            <h1 class="text-social">Redes sociales</h1>
             <div class="row">
-                <div class="col-md-3">
-                        <div class="card text-center bg-primary">
+                <div class="col-md-6 mb-5">
+                        <div class="card1 text-center bg-primary">
                             <div class="card-body">
                                 <i class="fab fa-linkedin-in fa-4x"></i>
                                 <p class="mt-3">
@@ -97,19 +87,8 @@
                             </div>
                         </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card text-center bg-primary">
-                        <div class="card-body">
-                            <i class="fab fa-github fa-4x"></i>
-                            <p class="mt-3">
-                                GitHub
-                            </p>
-                            <a href="https://www.github.com/napsterh" class="stretched-link" target="_blank"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-center bg-primary">
+                <div class="col-md-6 mb-5">
+                    <div class="card1 text-center bg-primary">
                         <div class="card-body">
                             <i class="fab fa-instagram fa-4x"></i>
                             <p class="mt-3">
@@ -119,14 +98,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card text-center bg-primary">
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <div class="card1 text-center bg-primary">
                         <div class="card-body">
                             <i class="fab fa-facebook-f fa-4x"></i>
                             <p class="mt-3">
                                 Facebook
                             </p>
-                            <a href="https://www.facebook.com" class="stretched-link" target="_blank"></a>
+                            <a href="https://www.facebook.com/homer.lopezvidal/" class="stretched-link" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="card1 text-center bg-primary">
+                        <div class="card-body">
+                            <i class="fab fa-twitter fa-4x"></i>
+                            <p class="mt-3">
+                                Twitter
+                            </p>
+                            <a href="https://twitter.com/romev12" class="stretched-link" target="_blank"></a>
                         </div>
                     </div>
                 </div>
@@ -135,224 +127,139 @@
       </section>
 
       <!--Sobre mi-->
-
-      <section class="bg-success text-center" id="hola">
-        <div class="container">
-            <div class="row">
+      <section class="experiencia text-center" id="hola">
+        <div class="container py-4">
+            <h1 class="text-title">Experiencia y formación</h1>
+            <div class="row py-5">
                 <div class="wrapper">
                     <div class="timeline-area">
                         <div class="line-area"></div>
-                        <div class="single-item">
-                            <span>2013-2014</span>
-                            <div class="img-area">
-                                <a href="#">
-                                    <img src="img/pc.png" alt="">
-                                    <span>Universidad</span>
-                                </a>
+                            <div class="single-item active">
+                                <span>2013-2019</span>
+                                <div class="img-area">
+                                    <a href="#">
+                                        <img src="img/urp.jpg" alt="">
+                                        <span>Estudios de Ingeniería Informática</span>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="single-item">
-                            <span>2015-2016</span>
-                            <div class="img-area">
-                                <a href="#">
-                                    <img src="img/pc.png" alt="">
-                                    <span>Basilio</span>
-                                </a>
+                            <div class="single-item">
+                                <span>2016-2017</span>
+                                <div class="img-area">
+                                    <a href="#">
+                                        <img src="img/softhy.png" alt="">
+                                        <span>Desarrollador Fullstack</span>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="single-item">
-                            <span>2017-2018</span>
-                            <div class="img-area">
-                                <a href="#">
-                                    <img src="img/pc.png" alt="">
-                                    <span>PC</span>
-                                </a>
+                            <div class="single-item">
+                                <span>2016-2017</span>
+                                <div class="img-area">
+                                    <a href="#">
+                                        <img src="img/brita.png" alt="">
+                                        <span>Estudios de idioma Inglés</span>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
+                            <div class="single-item">
+                                <span>2017-2018</span>
+                                <div class="img-area">
+                                    <a href="#">
+                                        <img src="img/pc.png" alt="">
+                                        <span>Desarrollador freelancer</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="single-item">
+                                <span>2019</span>
+                                <div class="img-area">
+                                    <a href="#">
+                                        <img src="img/bellavista.png" alt="">
+                                        <span>Desarrollador Fullstack</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="single-item">
+                                <span>2020</span>
+                                <div class="img-area">
+                                    <a href="#">
+                                        <img src="img/global.jpg" alt="">
+                                        <span>Analista programador</span>
+                                    </a>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
         </div>
       </section>
 
-      <!--Preguntas-->
-      
-      <section class="container text-center p-5">
-        <div class="row">
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Pregunta 1
-                      </button>
-                    </h2>
-                  </div>
-              
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi omnis
-                       ipsum molestias accusantium dolore voluptatibus pariatur tempora ipsa?
-                        Saepe tempora, ab explicabo exercitationem illum sint aliquam architecto
-                        suscipit, commodi deleniti iste et voluptatum hic quos amet laudantium.
-                        Porro, eius debitis.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Pregunta 2
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Pregunta 3
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-      </section>
 
       <!--Proyectos-->
       <section class="proyecto text-center" id="proyectos">
-        <div class="container p-5">
-            <h1 class="text-white">Proyectos</h1>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nobis.</p>
+        <div class="container p-4">
+            <h1 class="text-social">Proyectos</h1>
             <div class="row">
-                <!--Proyecto art marketing-->
-                <div class="col-lg-3">
-                    <div class="card">
+                <!--github-->
+                <div class="col-lg-6">
+                    <div class="card1 bg-primary">
                         <div class="card-body">
-                            <img src="img/pc.png" class="img-fluid
-                            " alt="Proyecto 1">
-                            <h3>Art marketing</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                            <i class="fab fa-github fa-10x"></i>
+                                <h3>GitHub</h3>
+                                <p>Repositorio con todos los proyectos que realicé.</p>
+                                <a href="https://www.github.com/napsterh" class="stretched-link" target="_blank"></a>
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="p-2">
+                                            <i class="fab fa-html5 fa-2x"></i>
+                                        </div>
+                                        <div class="p-2">
+                                            <i class="fab fa-css3 fa-2x"></i>
+                                        </div>
+                                        <div class="p-2">
+                                            <i class="fab fa-js fa-2x"></i>
+                                        </div>
+                                        <div class="p-2">
+                                            <i class="fab fa-react fa-2x"></i>
+                                        </div>
+                                        <div class="p-2">
+                                            <i class="fab fa-android fa-2x"></i>
+                                        </div>
+                                        <div class="p-2">
+                                            <i class="fab fa-php fa-2x"></i>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--posdata-->
+                <div class="col-lg-6">
+                    <div class="card1 bg-primary">
+                        <div class="card-body">
+                            <i class="fab fa-wordpress fa-10x"></i>
+                            <h3>WordPress</h3>
+                            <p>Desarrollo de páginas web con el CMS de WordPress.</p>
+                            <a href="http://www.posdatastore.com" class="stretched-link" target="_blank"></a>
                             <div class="d-flex flex-row justify-content-center">
-                                <div class="p-4">
-                                    <a href="http://instagram.com/homer_lv" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
+                                <div class="p-2">
+                                    <i class="fas fa-tag fa-2x"></i>
                                 </div>
-                                <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
+                                <div class="p-2">
+                                    <i class="fas fa-laptop fa-2x"></i>
                                 </div>
-                                <div class="p-4">
-                                    <a href="http://twitter.com" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
+                                <div class="p-2">
+                                    <i class="fas fa-shopping-cart fa-2x"></i>
+                                </div>
+                                <div class="p-2">
+                                    <i class="fas fa-envelope-square fa-2x"></i>
+                                </div>
+                                <div class="p-2">
+                                    <i class="fas fa-utensils fa-2x"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!--Proyecto posdata-->
-                <div class="col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="img/pc.png" class="img-fluid
-                            " alt="Proyecto 1">
-                            <h3>Postada Store</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-                            <div class="d-flex flex-row justify-content-center">
-                                <div class="p-4">
-                                    <a href="http://instagram.com/homer_lv" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </div>
-                                <div class="p-4">
-                                    <a href="http://twitter.com" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Proyecto posdata digital-->
-                <div class="col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="img/pc.png" class="img-fluid
-                            " alt="Proyecto 1">
-                            <h3>Posdata Digital</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-                            <div class="d-flex flex-row justify-content-center">
-                                <div class="p-4">
-                                    <a href="http://instagram.com/homer_lv" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </div>
-                                <div class="p-4">
-                                    <a href="http://twitter.com" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Proyecto Panaderia lopez-->
-                <div class="col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="img/pc.png" class="img-fluid
-                            " alt="Proyecto 1">
-                            <h3>Pan. López</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
-                            <div class="d-flex flex-row justify-content-center">
-                                <div class="p-4">
-                                    <a href="http://instagram.com/homer_lv" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="p-4">
-                                    <a href="http://facebook.com" target="_blank">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </div>
-                                <div class="p-4">
-                                    <a href="http://twitter.com" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
       </section>
@@ -410,5 +317,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--experiencia y formacion JS-->
+    <script>
+        $(".wrapper .single-item > span").on("mouseenter mouseleave", function(e){
+            $(".wrapper .single-item.active").removeClass("active");
+                $(this).parent().addClass("active");
+        });
+    </script>
 </body>
 </html>
